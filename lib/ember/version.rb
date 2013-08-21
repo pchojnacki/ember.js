@@ -8,6 +8,6 @@ module Ember
   def rubygems_version_string
     major, rc = VERSION.sub('-','.').scan(/(\d+\.\d+\.\d+\.rc)\.(\d+)/).first
 
-    "#{major}#{rc}"
+    "#{major}#{rc}.2"
   end
 end
